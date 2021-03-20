@@ -1,0 +1,161 @@
+body{
+  background-color: white;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Start of NAV BAR */
+li, a{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+li, .list:hover{
+  color:#13d857;
+}
+
+header{
+  position: relative;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 12%;
+  width: 100%;
+  background-color: black;
+  height: 82px;
+  z-index: 3;
+}
+
+
+.logo{
+  cursor: pointer;
+  width: 130px;
+}
+
+.nav_links{
+  list-style: none ;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.separator{
+  display: inline-block;
+  border-bottom: white 1px solid;
+  transform: rotate(90deg);
+  height: 2px;
+}
+
+/* End of NAV BAR */
+
+/* Front page */
+
+.parent-bg{
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  overflow: hidden;
+  background-color: #2941ab;
+  height: 117vh;
+  background-size: 175%;
+  background-position-x: 46%;
+  background-position-y: 4%;
+}
+.child-text{
+  position: absolute;
+  display: inline-block;
+  padding: 2% 4%;
+  z-index: 0;
+  margin-top:10%;
+  margin-left: 32%;
+}
+.bubbles{
+  /* width: 120%;
+  height: 190%; */
+  z-index: -1;
+
+}
+
+
+h1{
+  font-size: 9.1rem;
+  font-family: 'Roboto', sans-serif;
+  color:#13d857;
+  font-weight: 900;
+  text-indent: -30%;
+  line-height: 166px;
+}
+/* 
+h1{
+  position: absolute;
+  display: inline-block;
+  font-size: 156px;
+  font-family: 'Roboto', sans-serif;
+  color:#13d857;
+  padding: 2% 4%;
+} */
+p{
+
+  font-family: 'Roboto', sans-serif;
+  color:#13d857;
+  font-size: 18px;
+  padding-bottom: 35px;
+  padding-top: 40px;
+}
+
+.spotify-button {
+
+	background:linear-gradient(to bottom, #13d858 5%, #13d858 100%);
+	background-color:#13d858;
+	border-radius:28px;
+	border:1px solid #13d858;
+	display:inline-block;
+	cursor:pointer;
+	color:#2941ab;
+	font-family:'Roboto', sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding:14px 26px;
+	text-decoration:none;
+  margin-left: 130px;
+}
+
+.spotify-button:hover{
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+
+/* Footer Section */
+footer{
+  background-color: black;
+  height: 35rem;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-logo{
+  width: 9%;
+  margin-top: 4rem;
+  margin-left: 13rem;
+}
+
+th{
+  color:grey;
+}
+td{
+  color: white;
+}
+
+td:hover{
+  color: #13d857;
+  cursor: pointer;
+}
+        
